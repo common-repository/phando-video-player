@@ -1,0 +1,108 @@
+#phandovideoplayer-videos-list {
+	min-height: 100px;
+	padding: 10px;
+}
+
+.phandovideoplaye-video-item {
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 40px 30px;
+	border: 2px solid #fff;
+	color: #404040;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 7px 8px 7px 50px;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.phandovideoplaye-video-item:hover {
+	padding-right: 50px;
+}
+
+.btn-add-video {
+	background-color: #009900;
+	color: #fff;
+	display: none;
+	font-size: 13px;
+	padding: 3px;
+	position: absolute;
+	right: 10px;
+	top: 3px;
+}
+
+.btn-add-video:hover {
+	background-color: #00b300;
+}
+
+.phandovideoplaye-video-item:hover .btn-add-video {
+	display: block;
+}
+
+.phandovideoplaye-video-item-container.even .phandovideoplaye-video-item:hover {
+	border: 2px solid #ccffcc;
+}
+
+.phandovideoplaye-video-item-container.odd .phandovideoplaye-video-item:hover {
+	border: 2px solid #f2f2f2;
+}
+
+.phandovideoplaye-video-item-container.even {
+	background-color: #e6ffe6;
+}
+
+.phandovideoplaye-video-item-container.even:hover {
+	background-color: #ccffcc;
+}
+
+.phandovideoplaye-video-item-container.odd {
+	background-color: #fff;
+}
+
+.phandovideoplaye-video-item-container.odd:hover {
+	background-color: #f2f2f2;
+}
+
+.phando-video-loader {
+	background-image: url("../images/phando-loader.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.phando-search-video {
+	background-image: url("../images/search.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	padding-right: 30px;
+	padding: 10px;
+	width: 100%;
+}
+
+.phando-media-widget {
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	max-width: 900px;
+	padding: 20px;
+}
+
+.phando-media-heading {
+	background-color: #f7f7f4;
+	background-image: url("../images/phando-logo.png");
+	background-origin: content-box;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 80px auto;
+	border: 1px solid #f4f4f0;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+
+.phando-media-heading h3 {
+	margin: 0;
+}
+
+.phando-loading-cursor * {
+	cursor: wait;
+}
